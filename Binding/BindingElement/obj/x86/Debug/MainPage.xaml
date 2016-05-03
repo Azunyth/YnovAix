@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="BindingElement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindingElement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Rectangle Fill="LawnGreen" Width="100" Height="100" Margin="50" RenderTransformOrigin="0.5,0.5" >
+            <Rectangle.RenderTransform>
+                <CompositeTransform ScaleX="{Binding Value, ElementName=sdrScaleRectangle}"
+                                    ScaleY="{Binding Value, ElementName=sdrScaleRectangle}"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Slider x:ConnectionId='1' x:Name="sdrScaleRectangle" Minimum="0.5" Maximum="2" StepFrequency="0.1" />
+    </StackPanel>
+</Page>
+
