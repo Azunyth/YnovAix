@@ -1,0 +1,1 @@
+C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Binding\BindingVM\BindingVM.csproj;x86

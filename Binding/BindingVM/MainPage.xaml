@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="BindingVM.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindingVM"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vm="using:BindingVM.ViewModels"
+    >
+    <Page.DataContext>
+        <vm:MainPageViewModel />
+    </Page.DataContext>
+    
+    <StackPanel x:Name="spPerson" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+        <TextBlock Text="{Binding Person.Firstname}" />
+        <TextBlock Text="{Binding Person.Lastname}" />
+    </StackPanel>
+</Page>
