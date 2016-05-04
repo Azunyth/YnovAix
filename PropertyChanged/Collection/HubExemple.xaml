@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Collection.HubExemple"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Collection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid>
+        <Hub Header="Développement" >
+            <HubSection Width="600" Header="UWP">
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Text="L'UWP c'est génial !" Style="{ThemeResource BodyTextBlockStyle}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="HTML" IsHeaderInteractive="True" Background="#55222222" MinWidth="250">
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Text="Un peu de web ?" Style="{ThemeResource BodyTextBlockStyle}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Java" IsHeaderInteractive="True" Background="#55444444" MinWidth="250">
+                <DataTemplate>
+                    <Grid>
+                        <TextBlock Text="ou du Java ?" Style="{ThemeResource BodyTextBlockStyle}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+    </Grid>
+</Page>
