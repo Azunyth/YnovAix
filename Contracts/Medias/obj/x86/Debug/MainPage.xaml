@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Medias.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Medias"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel >
+            <Button x:ConnectionId='3' Content="Prendre une photo"                         HorizontalAlignment="Center" />
+            <Image x:ConnectionId='4' x:Name="imgPreview" Width="200" Height="200"  />
+        </StackPanel>
+        <StackPanel>
+            <Button x:ConnectionId='1' Content="Prendre une video"                         HorizontalAlignment="Center" />
+            <MediaElement x:ConnectionId='2' x:Name="meVideoPreview" Width="320" Height="240" AreTransportControlsEnabled="True"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
+

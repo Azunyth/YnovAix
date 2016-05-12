@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Share.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Share"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <TextBox x:ConnectionId='1' x:Name="tbShare" Height="25" />
+            <Button x:ConnectionId='2' Content="Partager"                     />
+        </StackPanel>
+    </Grid>
+</Page>
+
