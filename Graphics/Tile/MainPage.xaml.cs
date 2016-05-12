@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml;
+using System.Xml.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Notifications;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +28,17 @@ namespace Tile
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void UpdateTile_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.Data.Xml.Dom.XmlDocument doc = new Windows.Data.Xml.Dom.XmlDocument();
+            string xml = File.ReadAllText("tile.xml");
+            doc.LoadXml(xml);
+
+            var tile = new TileNotification(doc);
+
+            TileUpdateManager.CreateTileUpdaterForApplication().Update(tile);
         }
     }
 }

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>fe4db5ce-051b-4965-a31f-e54b862e4dd2</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>584CB0F5EEC92BD7BBAD020FD93CB5032CE11DAF503C9B64AAAF67BF53DB0A09</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>89B671637ADE33C37CB3872AC063762D323824F148E757CAF2AC52E8BF232A9C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>fe4db5ce-051b-4965-a31f-e54b862e4dd2_1.0.0.0_x86__dxxmydwf1tzs0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>fe4db5ce-051b-4965-a31f-e54b862e4dd2_dxxmydwf1tzs0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fe4db5ce-051b-4965-a31f-e54b862e4dd2</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-08T17:33:28.978</Modified>
+      <Modified>2016-05-12T13:02:49.227</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\bin\x86\Debug\Tile.exe">
       <PackagePath>entrypoint\Tile.exe</PackagePath>
-      <Modified>2016-05-08T11:01:34.567</Modified>
+      <Modified>2016-05-12T13:02:47.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -458,6 +458,15 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2016-05-08T10:46:04.676</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\me.jpg">
+      <PackagePath>Assets\me.jpg</PackagePath>
+      <Modified>2016-05-12T12:18:07.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-12T13:02:11.010</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -502,13 +511,17 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-05-08T11:18:22.091</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\tile.xml">
+      <PackagePath>tile.xml</PackagePath>
+      <Modified>2016-05-12T12:54:23.787</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-05-08T10:45:59.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\bin\x86\Debug\Tile.xr.xml">
       <PackagePath>Tile.xr.xml</PackagePath>
-      <Modified>2016-05-08T10:56:35.649</Modified>
+      <Modified>2016-05-12T12:15:37.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -516,11 +529,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-08T17:33:27.835</Modified>
+      <Modified>2016-05-12T13:02:48.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\bin\x86\Debug\Core\Tile.exe">
       <PackagePath>Tile.exe</PackagePath>
-      <Modified>2016-05-08T17:33:28.971</Modified>
+      <Modified>2016-05-12T13:02:49.168</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

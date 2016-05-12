@@ -342,6 +342,13 @@
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\me.jpg">
+      <PackagePath>Assets\me.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -376,6 +383,9 @@
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\tile.xml">
+      <PackagePath>tile.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\Tile\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
