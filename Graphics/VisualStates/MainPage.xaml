@@ -9,8 +9,8 @@
     SizeChanged="OnSizeChanged">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Hello World" />
-        <!--<GridView x:Name="gvLarge" Visibility="Visible" Background="Blue" />
+        <!--<Button Content="Hello World" />-->
+        <GridView x:Name="gvLarge" Visibility="Visible" Background="Blue" />
         <ListView x:Name="lvHide" Visibility="Collapsed" Background="Green" />
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="ApplicationViewStates">
@@ -27,6 +27,6 @@
                     </Storyboard>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>-->
+        </VisualStateManager.VisualStateGroups>
     </Grid>
 </Page>

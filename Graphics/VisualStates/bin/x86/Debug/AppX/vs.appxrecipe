@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\VisualStates\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-07T10:05:42.767</Modified>
+      <Modified>2016-05-12T08:26:14.568</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\VisualStates\bin\x86\Debug\VisualStates.exe">
       <PackagePath>entrypoint\VisualStates.exe</PackagePath>
-      <Modified>2016-05-07T10:05:41.941</Modified>
+      <Modified>2016-05-12T08:26:13.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -498,7 +498,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\VisualStates\bin\x86\Debug\VisualStates.xr.xml">
       <PackagePath>VisualStates.xr.xml</PackagePath>
-      <Modified>2016-05-07T10:05:41.701</Modified>
+      <Modified>2016-05-12T08:26:13.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -506,11 +506,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\VisualStates\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-07T10:05:42.497</Modified>
+      <Modified>2016-05-12T08:26:14.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alexis\Documents\Visual Studio 2015\Projects\Graphics\VisualStates\bin\x86\Debug\Core\VisualStates.exe">
       <PackagePath>VisualStates.exe</PackagePath>
-      <Modified>2016-05-07T10:05:42.764</Modified>
+      <Modified>2016-05-12T08:26:14.565</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

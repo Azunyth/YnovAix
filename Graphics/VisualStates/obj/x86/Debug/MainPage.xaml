@@ -9,14 +9,14 @@
                                >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Hello World" />
-        <!--<GridView x:Name="gvLarge" Visibility="Visible" Background="Blue" />
-        <ListView x:Name="lvHide" Visibility="Collapsed" Background="Green" />
+        <!--<Button Content="Hello World" />-->
+        <GridView x:ConnectionId='2' x:Name="gvLarge" Visibility="Visible" Background="Blue" />
+        <ListView x:ConnectionId='3' x:Name="lvHide" Visibility="Collapsed" Background="Green" />
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="ApplicationViewStates">
-                <VisualState x:Name="FullScreenLandScape" />
-                <VisualState x:Name="Filled" />
-                <VisualState x:Name="FullScreenPortrait">
+            <VisualStateGroup x:ConnectionId='4' x:Name="ApplicationViewStates">
+                <VisualState x:ConnectionId='5' x:Name="FullScreenLandScape" />
+                <VisualState x:ConnectionId='6' x:Name="Filled" />
+                <VisualState x:ConnectionId='7' x:Name="FullScreenPortrait">
                     <Storyboard>
                         <ObjectAnimationUsingKeyFrames Storyboard.TargetName="gvLarge" Storyboard.TargetProperty="Visibility">
                             <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
@@ -27,7 +27,7 @@
                     </Storyboard>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>-->
+        </VisualStateManager.VisualStateGroups>
     </Grid>
 </Page>
 
