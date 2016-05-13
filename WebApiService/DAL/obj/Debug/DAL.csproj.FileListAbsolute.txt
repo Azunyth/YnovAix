@@ -1,0 +1,12 @@
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\DAL.dll.config
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\DAL.dll
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\DAL.pdb
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\DomainModel.dll
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\EntityFramework.dll
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\DomainModel.pdb
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\EntityFramework.xml
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\obj\Debug\DAL.dll
+c:\users\alexis\documents\visual studio 2015\Projects\WebApiService\DAL\obj\Debug\DAL.pdb

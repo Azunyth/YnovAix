@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{898B84BB-CE95-4E35-A06B-F5F1926CB180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{C7465246-AF65-4460-807E-456FD36D3F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi", "WepApi\WepApi.csproj", "{D713BC61-CB1A-45BD-A541-67CB6FCFE514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898B84BB-CE95-4E35-A06B-F5F1926CB180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898B84BB-CE95-4E35-A06B-F5F1926CB180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898B84BB-CE95-4E35-A06B-F5F1926CB180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898B84BB-CE95-4E35-A06B-F5F1926CB180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7465246-AF65-4460-807E-456FD36D3F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7465246-AF65-4460-807E-456FD36D3F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7465246-AF65-4460-807E-456FD36D3F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7465246-AF65-4460-807E-456FD36D3F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D713BC61-CB1A-45BD-A541-67CB6FCFE514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D713BC61-CB1A-45BD-A541-67CB6FCFE514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D713BC61-CB1A-45BD-A541-67CB6FCFE514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D713BC61-CB1A-45BD-A541-67CB6FCFE514}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
