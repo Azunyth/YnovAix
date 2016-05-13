@@ -1,0 +1,2 @@
+c:\users\alexis\documents\visual studio 2015\Projects\LifeCycle\BackgroundTask\BackgroundTask.csproj;x86
+c:\users\alexis\documents\visual studio 2015\Projects\LifeCycle\LifeCycle\LifeCycle.csproj;x86
